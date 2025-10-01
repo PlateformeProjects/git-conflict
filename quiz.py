@@ -9,7 +9,7 @@ def main():
     y = 10
     print("Add:", add_numbers(x, y))
     print("Multiply:", multiply_numbers(x, y))
-    result = add_numbers(x, y) * 2
+    result = add_numbers(x, y) * 3  # <- conflict
     print("Result:", result)
 
 if __name__ == "__main__":
